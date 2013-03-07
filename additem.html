@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Project 1 - Megal Williams - MiU 1207 -->
+<html>
+<!-- Header Content -->
+	<head>
+<!-- CSS Styling -->
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+<!-- Meta Tags -->
+		<meta charset="utf-8" />
+		<meta name="keywords" content="video games, gaming, library, web app" />
+		<meta name="description" content="My Game Library App" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<meta name="robots" content="index, follow" />
+<!-- Title -->
+		<title> My Game Library App - Add Item </title>
+	</head>
+<!-- Body Content -->	
+	<body>	
+		<h1> Add A Game </h1>
+<!-- Form Content -->
+		<form action="#" method="post" id="addGameForm">
+			<fieldset>
+				<legend>Game Information </legend>
+				<h5> * fields are required </h5>
+				<ul class="errors" id="errors"></ul>
+					<label for="platforms" id="select"> <strong>*Platform:</strong></br> </label></br></br>
+					<label for="game"> <strong>*Title:</strong> </label></br><input type="text" placeholder="Enter Game Title" id="game" /></br></br>
+			</fieldset>
+			<fieldset>
+				<legend> Additional Information </legend>
+					<label for="date"> <strong>Date Purchased:</strong> </label></br><input type="date" id="date" /></br></br>
+					<label for="fav"> <strong>Favorite?</strong> </label><input type="checkbox" id="fav" value="Yes" /></br></br>
+					<label for="score"> <strong>Score:</strong> </label></br><input type="range" min="1" max="10" id="score"/></br></br>
+					<label for="comments"> <strong>Comments:</strong> </label></br><textarea id="comments" placeholder="Enter Comments Here"></textarea></br></br>
+					<input type="hidden" value="true" />
+			</fieldset>
+			<span><input type="image" src="images/submitgame.png" id="saveData"/></span>
+		</form>	
+<!-- Clear Data and Show Data links -->
+		<a href="#" id="clearData">Clear Game Library</a></br>  
+		<a href="#" id="displayData">Show Game Library</a>
+		<a href="additem.html" id="addNew" style="display:none;">Add New Game</a>
+		<script src="js/json.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script> 
+	</body>	
+</html>
