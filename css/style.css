@@ -1,0 +1,116 @@
+/* Project 1 - Megal WIlliams - MIU 1303 */
+
+body {
+	background-image: url('../images/pattern.png');
+}
+
+h1 {
+    background-color: #024C68;
+    color: #ffffff;
+    padding: 0.25em;
+    text-align: center;
+    text-shadow: 2px 2px 2px #393c3e;
+    font-family: "Lucida Sans", Helvetica;
+    font-size: 26px;
+}
+
+h5 {
+	font-family: Helvetica;
+	margin-top: 1px;
+	color:#000000;
+}
+
+fieldset {
+	margin-bottom: 10px;
+}
+
+legend {
+	color: #000000;
+	font-family: Helvetica;  
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+label {
+	font-family: Helvetica;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+select {
+	width: 100%;
+}
+
+input {
+	width: 96%;
+}
+
+textarea {
+	width: 100%;
+	height: 75px;
+}
+
+span {
+	margin-left: 6px;
+}
+
+p {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 15px;
+}
+
+nav {
+	text-align: center;
+}
+
+ol {
+	border-bottom: 1px dotted #8a8a8a;
+	margin-left: -115px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+ul {
+	color: green;
+}
+
+ul.errors li {
+	color: red;
+	margin-left: -20px;
+	list-style-type: circle;
+}
+
+li {
+	font-family: helvetica;
+	font-size: 14px;
+	list-style-type: none;
+	color: #2a5686;
+}
+
+a {
+	font-family: helvetica;
+}
+
+input.searchbox {
+	width: 96%;
+}
+
+input.searchbutton {
+	width: 100%;
+}
+
+img.additem {
+	padding-bottom: 15px;
+}
+
+fieldset.fieldset1{
+	margin-bottom: 20px;
+}
+
+fieldset.fieldset2{
+	text-align: center;
+	padding-bottom: 5px;
+}
